@@ -55,4 +55,9 @@ git rebase
 git commit -c C 重用C的提交说明
 
 *******************************************
+ssh-keygen -t rsa -C "登入email"
+key注册
+ssh -T git@github.com
+git remote add origin git@github.com:name/***.git
+
 git clone [--bare]
